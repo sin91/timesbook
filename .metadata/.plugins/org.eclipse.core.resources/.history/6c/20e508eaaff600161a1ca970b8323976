@@ -1,0 +1,5 @@
+package com.timesbook.dao.util;
+
+public class DBAccessUtil {
+
+}

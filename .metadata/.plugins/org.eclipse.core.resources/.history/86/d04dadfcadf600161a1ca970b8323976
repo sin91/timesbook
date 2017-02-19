@@ -1,0 +1,12 @@
+package com.timesbook.common.dto;
+
+import java.io.Serializable;
+
+public class CategoryDTO implements Serializable {
+
+	/**
+	 * Default serial version UID
+	 */
+	private static final long serialVersionUID = 1L;
+	
+}

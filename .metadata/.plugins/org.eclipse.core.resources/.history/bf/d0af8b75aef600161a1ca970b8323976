@@ -1,0 +1,5 @@
+package com.timesbook.common.dto;
+
+public class ProductDTO {
+
+}

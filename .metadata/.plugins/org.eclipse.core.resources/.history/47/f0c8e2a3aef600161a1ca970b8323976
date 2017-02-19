@@ -1,0 +1,18 @@
+package com.timesbook.common.dto;
+
+import java.io.Serializable;
+import java.util.Locale.Category;
+
+public class ProductDTO implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1002L;
+	
+	private String productId;
+	private String productName;
+	private Category category;
+	
+
+}

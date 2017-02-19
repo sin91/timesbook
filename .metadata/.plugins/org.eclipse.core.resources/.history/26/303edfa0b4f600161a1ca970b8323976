@@ -1,0 +1,5 @@
+package com.timesbook.service.interfaces;
+
+public interface ICategoryService {
+	CategoryDTO getCategoryById(String categoryId);
+}

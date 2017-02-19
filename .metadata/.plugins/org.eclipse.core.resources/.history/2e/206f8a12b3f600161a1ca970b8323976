@@ -1,0 +1,8 @@
+package com.timesbook.dao.base;
+
+import org.apache.ibatis.session.SqlSession;
+
+public abstract class BaseDAO {
+	protected SqlSession sqlSession;
+	
+}

@@ -1,0 +1,13 @@
+package com.timesbook.dao.base;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.timesbook.dao.util.DBAccessUtil;
+
+public abstract class BaseDAO {
+	protected SqlSession sqlSession;
+	
+	public final SqlSession getSqlSession(){
+		return DBAccessUtil.getSqlSessionFactory().openSession();
+	}
+}

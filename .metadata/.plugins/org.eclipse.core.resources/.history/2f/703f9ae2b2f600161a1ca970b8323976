@@ -1,0 +1,14 @@
+package com.timesbook.dao.impl;
+
+import com.timesbook.common.dto.CategoryDTO;
+import com.timesbook.dao.interfaces.ICategoryDAO;
+
+public class CategoryDAOImpl implements ICategoryDAO {
+
+	@Override
+	public CategoryDTO getCategoryById(CategoryDTO category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

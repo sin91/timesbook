@@ -1,0 +1,14 @@
+package com.timesbook.common.dto;
+
+import java.io.Serializable;
+
+public class ProductDTO implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1002L;
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.timesbook.dao.util;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+
+public class DBAccessUtil {
+	private final static Object obj = new Object();
+	private static SqlSessionFactory sqlSessionFactory;
+}

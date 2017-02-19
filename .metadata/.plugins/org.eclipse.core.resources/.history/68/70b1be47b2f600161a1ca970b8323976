@@ -1,0 +1,5 @@
+package com.timesbook.dao.base;
+
+public abstract class BaseDAO {
+	private SqlSession sqlSession;
+}

@@ -1,0 +1,16 @@
+package com.timesbook.service.impl;
+
+import com.timesbook.common.dto.CategoryDTO;
+import com.timesbook.service.BaseService;
+import com.timesbook.service.interfaces.ICategoryService;
+
+public class CategoryServiceImpl extends BaseService implements ICategoryService {
+	private CategoryDAO categoryDao;
+	
+	@Override
+	public CategoryDTO getCategoryById(String categoryId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

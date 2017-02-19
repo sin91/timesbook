@@ -1,0 +1,31 @@
+package com.timesbook.dao.util;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+
+public class DBAccessUtil {
+	private final static Object obj = new Object();
+	private static SqlSessionFactory sqlSessionFactory;
+	
+	private DBAccessUtil(){}
+	
+	public static SqlSessionFactory getSqlSessionFactory(){
+		if(sqlSessionFactory == null){
+			synchronized(obj){
+				if(sqlSessionFactory==null){
+					try {
+						InputStream inputStream = Resources.getResourceAsStream("mybatis/mybatis-config.xml");
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+		}
+		
+		return sqlSessionFactory;
+	}
+}
